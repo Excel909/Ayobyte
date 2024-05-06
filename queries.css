@@ -12,6 +12,10 @@
         justify-content: left;
     }
 
+    .intro{
+        height: fit-content;
+    }
+
     .logo{
         margin-left: 50px;
         font-size: 20px;
@@ -43,6 +47,17 @@
 
     .link-1,.link-2,.link-3{
         font-size: 20pt;
+        margin-bottom: 30px;
+    }
+
+    .h-p,
+    .e-p,
+    .t-p {
+        border: 16px solid transparent;
+        position: absolute;
+        bottom: 0;
+        border-bottom-color: whitesmoke;
+        z-index: 1;
     }
 
     #content-tabs{
