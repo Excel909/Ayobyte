@@ -18,7 +18,8 @@
 
     .logo{
         margin-left: 50px;
-        font-size: 20px;
+        font-size: 25px;
+        font-weight: bold;
     }
 
     #text-container{
@@ -62,6 +63,37 @@
     }
 
     #content-tabs{
-        margin-top: 200px;
+        /* margin-top: 200px; */
+    }
+
+    .home-inner{
+        width: 100%;
+    }
+
+    .port{
+        display: flex;
+        margin-top: 20px;
+        /* background-color: red; */
+        height: fit-content;
+        flex-direction: column;
+    }
+
+    .p-l{
+        width: 100%;
+        height: fit-content;
+        justify-content: space-around;
+        display: flex;
+        order: 2;
+        margin-top: 50px;
+    }
+
+    .p-r{
+        order: 1;
+        width: 100%;
+        padding: 10px;
+    }
+    .p-pic{
+        width:200px;
+        height: 200px;
     }
 }
