@@ -1,3 +1,5 @@
+import { checker } from "./form_validation";
+
 let formm = document.getElementById("email-form");
 
 formm.addEventListener('submit', function(event) {
@@ -6,7 +8,11 @@ formm.addEventListener('submit', function(event) {
 
 let submit_btn = document.getElementById("sender");
 
-submit_btn.addEventListener('click', sendMail, false);
+if(checker()){
+    submit_btn.addEventListener('click', sendMail, false);
+} else{
+    submit_btn.removeEventListener('click', sendMail, false);
+}
 
 // emailjs.init(options);
 
