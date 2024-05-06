@@ -53,3 +53,13 @@ function toolFunc() {
     env_point.style.display = "none";
     tool_point.style.display = "block";
 }
+
+var gith = document.getElementById("github");
+
+gith.addEventListener("click", () => {
+    window.open("https://github.com/Excel909", "_blank");
+}, false);
+
+var hire = document.getElementById("hire");
+
+hire.addEventListener("click", envFunc,false);

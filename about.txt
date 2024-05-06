@@ -1,0 +1,6 @@
+This favicon was generated using the following font:
+
+- Font Title: Ojuju
+- Font Author: Copyright 2024 The Ojuju Project Authors (https://github.com/jobosonchisa/ojuju)
+- Font Source: https://fonts.gstatic.com/s/ojuju/v3/7r3bqXF7v9ApbrMih3jYQBVm9-n_Spk552FRLYeruQ.ttf
+- Font License: SIL Open Font License, 1.1 (http://scripts.sil.org/OFL))
