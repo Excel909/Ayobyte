@@ -71,7 +71,7 @@
     }
 
     .port{
-        display: flex;
+        display: block;
         margin-top: 20px;
         /* background-color: red; */
         height: fit-content;
@@ -83,12 +83,12 @@
         height: fit-content;
         justify-content: space-around;
         display: flex;
-        order: 2;
+        /* order: 2; */
         margin-top: 50px;
     }
 
     .p-r{
-        order: 1;
+        /* order: 1; */
         width: 100%;
         padding: 10px;
     }
