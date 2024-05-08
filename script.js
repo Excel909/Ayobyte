@@ -16,7 +16,7 @@ let tool_point = document.getElementById("t-p");
 
 let win = window;
 win.addEventListener('load',() => {
-    home_tab.style.display = "block";
+    tool_tab.style.display = "block";
 })
 
 home.addEventListener("click",homeFunc,false);

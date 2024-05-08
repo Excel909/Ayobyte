@@ -119,6 +119,7 @@
 
     .s-head{
         padding-bottom: 10px;
+        font-size: 20px;
     }
 
     .s-right{
@@ -127,5 +128,27 @@
 
     .dp1{
         width: 85%;
+    }
+
+    /* working on tools tab */
+
+    #tool-inner{
+        width: 95%;
+    }
+
+    .skill-bar{
+        height: fit-content;
+        display: block;
+        width: fit-content;
+        margin: auto;
+        margin-top: 50px;
+    }
+
+    .skill-box{
+        width:300px;
+    }
+
+    .skill-box:nth-of-type(2){
+        margin-top: 50px;
     }
 }
