@@ -152,6 +152,10 @@
         margin-top: 50px;
     }
 
+    .next-h{
+        display: block;
+    }
+
     .nexter{
         display: flex;
         margin-top: 20px;
