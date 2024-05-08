@@ -16,7 +16,7 @@ let tool_point = document.getElementById("t-p");
 
 let win = window;
 win.addEventListener('load',() => {
-    tool_tab.style.display = "block";
+    home_tab.style.display = "block";
 })
 
 home.addEventListener("click",homeFunc,false);
@@ -63,3 +63,15 @@ gith.addEventListener("click", () => {
 var hire = document.getElementById("hire");
 
 hire.addEventListener("click", envFunc,false);
+
+
+//for next button
+
+var next_one = document.getElementById("next_one");
+var next_two = document.getElementById("next_two");
+var next_three = document.getElementById("next_three");
+
+next_one.addEventListener("click",envFunc,false);
+next_two.addEventListener("click",toolFunc,false);
+next_three.addEventListener("click",homeFunc,false);
+
