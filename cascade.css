@@ -39,6 +39,7 @@ body {
     font-family: var(--var-font-family);
     position: relative;
     filter: grayscale(50%);
+    /* display: none; */
 }
 
 .i-inside {
@@ -212,6 +213,13 @@ body {
     position: relative;
     background-color: whitesmoke;
     /* display: none; */
+}
+
+.headline{
+    width: 300px;
+    height: 300px;
+    margin-top: 300px;
+    background-color: dodgerblue;
 }
 
 #home{
